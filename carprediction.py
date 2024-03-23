@@ -37,8 +37,6 @@ y_pred= pipe.predict(X_test)
 print('MSE:', mean_squared_error(y_test, y_pred))
 print('R2:', r2_score(y_test, y_pred))
 
-pip install streamlit
-
 def price(make,model,trim,mileage,car_type,cylinder,liter,doors,cruise,sound,leather):
 	input_data=pd.DataFrame({
 		'Make':[make],
